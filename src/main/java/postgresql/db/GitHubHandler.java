@@ -17,7 +17,7 @@ import postgresql.db.models.RepositoryOwner;
 
 
 public class GitHubHandler {
-    private String TOKEN = System.getenv("GITHUB_TOKEN");
+    private String TOKEN = "f32b4cb52065ee02c77eb2f0ac3582086ca0c6e8";
     private int maxPageCount = 35;
     private int maxResultsCountPerPage = 30;
     private CloseableHttpClient client = HttpClients.createDefault();
